@@ -40,7 +40,7 @@ function App() {
             how responsible AI should work.
           </p>
           <p className="mx-auto mt-2 max-w-md text-sm text-navy-400">
-            Search for a beach to see its latest official bathing-water
+            Search for a beach to see its official 2025 EU bathing-water
             classification.
           </p>
         </section>
@@ -52,7 +52,7 @@ function App() {
             <p className="mt-3 flex items-center justify-center gap-1.5 text-xs text-navy-300">
               <SearchIcon className="h-3.5 w-3.5" />
               Try “Helsinki”, “Jūrmala”, or “Warnemünde” — {beaches.length}{" "}
-              beaches in the demo dataset
+              official 2025 bathing sites
             </p>
           )}
         </section>
@@ -91,11 +91,10 @@ function App() {
         {/* Footer */}
         <footer className="mt-12 border-t border-navy-50 pt-6 text-center">
           <p className="text-xs text-navy-300">
-            BalticBlue AI — a prototype for a youth AI working group.
+            BalticBlue AI — a prototype for a youth AI working group using official EEA 2025 data.
           </p>
           <p className="mt-1 text-xs text-navy-300">
-            Demo data is illustrative. Replace with verified European
-            Environment Agency values before real use.
+            Data source: European Environment Agency, Bathing Water Directive — 2025 classification.
           </p>
         </footer>
       </main>
