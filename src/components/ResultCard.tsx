@@ -44,7 +44,7 @@ export function ResultCard({ beach }: ResultCardProps) {
         </div>
 
         <p className="mt-3 text-xs text-navy-300">
-          Based on the latest official EU bathing-water assessment.
+          Based on the official 2025 EU bathing-water classification.
         </p>
 
         {/* Plain-language explanation */}
