@@ -5,6 +5,7 @@ import type { Beach } from "@/types";
  * Source: European Environment Agency, Bathing Water Directive – Status of bathing water, 2025 v1.0.
  * Includes Baltic coastal bathing waters plus relevant transitional bathing waters in Poland and Latvia.
  * Classifications are official EEA values; locality/alias fields are search aids only.
+ * City aliases are added from geographic proximity so users can search common city names (e.g. Copenhagen, Stockholm).
  */
 export const beaches: Beach[] = [
   {
@@ -58,7 +59,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BABYLONESKOVEN",
-      "DKBW366"
+      "DKBW366",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -73,7 +77,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BADEANSTALT I VALLENSBÆK HAVN",
-      "DKBW1893"
+      "DKBW1893",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -103,7 +111,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BADEBRO SYD FOR ESPERGÆRDE HAVN",
-      "DKBW410"
+      "DKBW410",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -133,7 +144,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BADEBRO UD FOR STRANDVEJEN 220",
-      "DKBW407"
+      "DKBW407",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -253,7 +267,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BJERRE STRAND",
-      "DKBW367"
+      "DKBW367",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -283,7 +300,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BLEGSTRÆDEHAGEN",
-      "DKBW1530"
+      "DKBW1530",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -298,7 +317,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BOGNÆS BADEBRO",
-      "DKBW1256"
+      "DKBW1256",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -313,7 +334,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BRAMSNÆS STRAND, NAGELS RENDE",
-      "DKBW116"
+      "DKBW116",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -358,7 +381,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BYSKOVEN BADEZONE",
-      "DKBW1908"
+      "DKBW1908",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -478,7 +505,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "DRAGERUP MOLEN,ØST",
-      "DKBW1383"
+      "DKBW1383",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -928,7 +957,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "HERSLEV STRAND",
-      "DKBW142"
+      "DKBW142",
+      "Roskilde"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1003,7 +1033,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "HOLBÆK SØBAD",
-      "DKBW1141"
+      "DKBW1141",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -1093,7 +1125,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "HVIDOVRE HAVN",
-      "DKBW1913"
+      "DKBW1913",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1123,7 +1159,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "HØRBY VEST",
-      "DKBW1142"
+      "DKBW1142",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1183,7 +1221,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KATTINGE VIG",
-      "DKBW143"
+      "DKBW143",
+      "Roskilde"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1198,7 +1237,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KBS, UD FOR HYLDETANGEN",
-      "DKBW4"
+      "DKBW4",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1228,7 +1271,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KISSERUP STRAND",
-      "DKBW1143"
+      "DKBW1143",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1258,7 +1303,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KLINTEN, FREDERIKSSUND",
-      "DKBW371"
+      "DKBW371",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1363,7 +1409,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KRONBORGBUGTEN",
-      "DKBW1603"
+      "DKBW1603",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1393,7 +1442,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KYNDELØSE SYDMARK, STRANDVEJEN",
-      "DKBW117"
+      "DKBW117",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1423,7 +1474,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "LODSPARKEN",
-      "DKBW1590"
+      "DKBW1590",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1513,7 +1568,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "LØSERUP STRAND,NORD",
-      "DKBW1287"
+      "DKBW1287",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1558,7 +1615,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "MARIENLYST BADESTRAND",
-      "DKBW406"
+      "DKBW406",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1588,7 +1648,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "MOERTELRENDEN",
-      "DKBW1914"
+      "DKBW1914",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1648,7 +1712,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "NORD FOR ESPERGÆRDE HAVN",
-      "DKBW408"
+      "DKBW408",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1753,7 +1820,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OFF. STRAND VED STRANDVEJEN 384, BADEBRO",
-      "DKBW411"
+      "DKBW411",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -1768,7 +1838,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OFFENTLIG STRAND VED LOKALTEATRET",
-      "DKBW412"
+      "DKBW412",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1843,7 +1916,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "ORØ FÆRGEHAVN",
-      "DKBW1939"
+      "DKBW1939",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -1873,7 +1948,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "ORØ STRAND",
-      "DKBW1134"
+      "DKBW1134",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2038,7 +2115,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "SKOTTERUP VED DALSBORG",
-      "DKBW409"
+      "DKBW409",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2368,7 +2448,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "SYD FOR HUMLEBÆK HAVN",
-      "DKBW1585"
+      "DKBW1585",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2413,7 +2496,13 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "SØVANG",
-      "DKBW16"
+      "DKBW16",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2473,7 +2562,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "TOBJERG SOMMERLAND",
-      "DKBW1284"
+      "DKBW1284",
+      "Holbæk",
+      "Holbaek"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2503,7 +2594,10 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "TRYKKERDAMMEN",
-      "DKBW1651"
+      "DKBW1651",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2593,7 +2687,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "VALLENSBÆK STRAND, VED SKRUBBEN",
-      "DKBW1464"
+      "DKBW1464",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2623,7 +2721,11 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "VED KONGELUNDSKROEN",
-      "DKBW18"
+      "DKBW18",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2638,7 +2740,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "VED ØSTRE STRANDVEJ",
-      "DKBW147"
+      "DKBW147",
+      "Køge",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2809,7 +2913,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "AMAGER STRANDPARK, LAGUNEN",
-      "DKBW1527"
+      "DKBW1527",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2830,7 +2938,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "AMAGER STRANDPARK, ØRESUND",
-      "DKBW1526"
+      "DKBW1526",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2848,7 +2960,13 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "AMAGER SYDSTRAND",
-      "DKBW14"
+      "DKBW14",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2866,7 +2984,13 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "DRAGØR NORDSTRAND",
-      "DKBW8"
+      "DKBW8",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2884,7 +3008,13 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "DRAGØR SØBAD, NORD",
-      "DKBW10"
+      "DKBW10",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2903,7 +3033,13 @@ export const beaches: Beach[] = [
       "Amager",
       "Svanemølle",
       "KASTRUP SØBAD, NORD FOR KASTRUP LYSTBÅDEHAVN",
-      "DKBW1520"
+      "DKBW1520",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2922,7 +3058,13 @@ export const beaches: Beach[] = [
       "Amager",
       "Svanemølle",
       "SCANPORT BADESTATION",
-      "DKBW1925"
+      "DKBW1925",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2941,7 +3083,13 @@ export const beaches: Beach[] = [
       "Amager",
       "Svanemølle",
       "SYD FOR KASTRUP LYSTBÅDEHAVN",
-      "DKBW1598"
+      "DKBW1598",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga",
+      "Dragør",
+      "Dragor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -2962,7 +3110,8 @@ export const beaches: Beach[] = [
       "Rønne Strand",
       "Rønne",
       "ARNAGER BUGT",
-      "DKBW356"
+      "DKBW356",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3018,7 +3167,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "BELLEVUE STRAND",
-      "DKBW20"
+      "DKBW20",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3040,7 +3193,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "BOMBEGRUNDEN TAARBÆK",
-      "DKBW1594"
+      "DKBW1594",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -3080,7 +3237,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "TAARBÆK HAVN",
-      "DKBW1593"
+      "DKBW1593",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3102,7 +3263,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "TAARBÆK SØBADEANSTALT",
-      "DKBW30"
+      "DKBW30",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3289,7 +3454,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "SKOVSHOVED HAVBAD",
-      "DKBW1652"
+      "DKBW1652",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3311,7 +3480,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Svanemølle",
       "SKOVSHOVED SYD",
-      "DKBW1891"
+      "DKBW1891",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3571,7 +3744,11 @@ export const beaches: Beach[] = [
       "Bellevue Klampenborg",
       "Bellevue",
       "CHARLOTTENLUND STRANDPARK",
-      "DKBW24"
+      "DKBW24",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3595,7 +3772,11 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "HELLERUP STRAND",
-      "DKBW26"
+      "DKBW26",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3654,7 +3835,10 @@ export const beaches: Beach[] = [
     "aliases": [
       "Hornbæk",
       "HØJSTRUP STRAND",
-      "DKBW405"
+      "DKBW405",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3671,7 +3855,10 @@ export const beaches: Beach[] = [
     "aliases": [
       "Hornbæk",
       "JULEBÆK STRAND",
-      "DKBW404"
+      "DKBW404",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3688,7 +3875,10 @@ export const beaches: Beach[] = [
     "aliases": [
       "Hornbæk",
       "KGL. OPFOSTRINGSHUS",
-      "DKBW403"
+      "DKBW403",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3705,7 +3895,10 @@ export const beaches: Beach[] = [
     "aliases": [
       "Hornbæk",
       "LANGEBRO, ÅLSGÅRDE",
-      "DKBW402"
+      "DKBW402",
+      "Helsingør",
+      "Helsingor",
+      "Elsinore"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3722,7 +3915,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "FREDERIKSSUND HAVNEBAD",
-      "DKBW1650"
+      "DKBW1650",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3739,7 +3933,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "HYLLINGERIIS",
-      "DKBW436"
+      "DKBW436",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -3756,7 +3951,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "KALVØEN VED ROKLUBBEN, FREDERIKSSUND",
-      "DKBW370"
+      "DKBW370",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3790,7 +3986,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "MARBÆK STRAND",
-      "DKBW372"
+      "DKBW372",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3807,7 +4004,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "NORDMARKEN, JYLLINGE STRANDBY",
-      "DKBW1380"
+      "DKBW1380",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3824,7 +4022,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "RÅDALSGÅRD",
-      "DKBW134"
+      "DKBW134",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3841,7 +4040,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "SKULDELEV HAVN VED BADEBRO",
-      "DKBW435"
+      "DKBW435",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3875,7 +4075,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "VEDDELEV",
-      "DKBW145"
+      "DKBW145",
+      "Roskilde"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -3892,7 +4093,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Jyllinge",
       "VIGEN CAMPINGPLADS",
-      "DKBW144"
+      "DKBW144",
+      "Roskilde"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4164,7 +4366,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Karrebæksminde",
       "KNUDSHOVED",
-      "DKBW1468"
+      "DKBW1468",
+      "Vordingborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4557,7 +4760,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "ALHØJVÆNGE",
-      "DKBW1572"
+      "DKBW1572",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4574,7 +4778,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "CERESENGEN STRAND",
-      "DKBW1169"
+      "DKBW1169",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4591,7 +4796,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "FRØLUNDE FED STR.",
-      "DKBW1164"
+      "DKBW1164",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4608,7 +4814,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "FÆRGEHAVNEN",
-      "DKBW1631"
+      "DKBW1631",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4625,7 +4832,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "GRANSKOVEN",
-      "DKBW1167"
+      "DKBW1167",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4660,7 +4868,8 @@ export const beaches: Beach[] = [
       "Korsør",
       "Skælskør",
       "KLARSKOVGÅRD BADEBRO",
-      "DKBW1170"
+      "DKBW1170",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4677,7 +4886,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "MUSHOLM STRAND",
-      "DKBW1466"
+      "DKBW1466",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4711,7 +4921,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "QUISTGAARDSVEJ STR.",
-      "DKBW1171"
+      "DKBW1171",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4728,7 +4939,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "REVKROGEN HALSKOV REV",
-      "DKBW1467"
+      "DKBW1467",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4746,7 +4958,8 @@ export const beaches: Beach[] = [
       "Korsør",
       "Skælskør",
       "SKOVSTRANDEN",
-      "DKBW1575"
+      "DKBW1575",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4763,7 +4976,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "STIBJERG HUSE STR.",
-      "DKBW1166"
+      "DKBW1166",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4780,7 +4994,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "STRANDVEJEN STRAND",
-      "DKBW1168"
+      "DKBW1168",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4797,7 +5012,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "SVENSTRUP STRAND",
-      "DKBW1165"
+      "DKBW1165",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4814,7 +5030,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "SØSKÆR",
-      "DKBW1574"
+      "DKBW1574",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4831,7 +5048,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Korsør",
       "VÆRFTET",
-      "DKBW1573"
+      "DKBW1573",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4849,7 +5067,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "HAVNEBAD KØGE MARINA",
-      "DKBW1622"
+      "DKBW1622",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -4867,7 +5086,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "NORDSTRANDEN",
-      "DKBW137"
+      "DKBW137",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -4885,7 +5105,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "SOLRØD STRANDPARK",
-      "DKBW148"
+      "DKBW148",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4903,7 +5124,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "STAUNINGS Ø",
-      "DKBW149"
+      "DKBW149",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4921,7 +5143,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "STRANDPARKSVEJ",
-      "DKBW153"
+      "DKBW153",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4939,7 +5162,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "STRØBY EGEDE, AHORNVEJ",
-      "DKBW157"
+      "DKBW157",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -4957,7 +5181,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "SØNDRE STRAND",
-      "DKBW140"
+      "DKBW140",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -4975,7 +5200,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "VED LUNDEN",
-      "DKBW156"
+      "DKBW156",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5011,7 +5237,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "ØLSEMAGLE REVLE NORD",
-      "DKBW138"
+      "DKBW138",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Good",
@@ -5029,7 +5256,8 @@ export const beaches: Beach[] = [
       "Køge Strand",
       "Køge",
       "ØLSEMAGLE REVLE SYD",
-      "DKBW139"
+      "DKBW139",
+      "Koge"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5236,7 +5464,8 @@ export const beaches: Beach[] = [
       "Nykøbing Sjælland",
       "Nykøbing",
       "DALBY STRAND",
-      "DKBW425"
+      "DKBW425",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5254,7 +5483,8 @@ export const beaches: Beach[] = [
       "Nykøbing Sjælland",
       "Nykøbing",
       "LANDERSLEV STRAND",
-      "DKBW426"
+      "DKBW426",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5290,7 +5520,8 @@ export const beaches: Beach[] = [
       "Nykøbing Falster",
       "Nykøbing",
       "NORDRE BÅDELAUG, KRAGHAVE",
-      "DKBW1653"
+      "DKBW1653",
+      "Nykobing Falster"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5347,7 +5578,8 @@ export const beaches: Beach[] = [
       "Nykøbing",
       "Klint",
       "VESTERSTRAND",
-      "DKBW427"
+      "DKBW427",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5712,7 +5944,8 @@ export const beaches: Beach[] = [
       "Balka",
       "Arnager",
       "ANTOINETTE",
-      "DKBW349"
+      "DKBW349",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5733,7 +5966,8 @@ export const beaches: Beach[] = [
       "Balka",
       "Arnager",
       "BLYKOBBE",
-      "DKBW347"
+      "DKBW347",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5751,7 +5985,8 @@ export const beaches: Beach[] = [
       "Rønne Strand",
       "Rønne",
       "HASLE HAVNEBAD",
-      "DKBW1607"
+      "DKBW1607",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5771,7 +6006,8 @@ export const beaches: Beach[] = [
       "Balka Bornholm",
       "Balka",
       "LEVKA",
-      "DKBW345"
+      "DKBW345",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5789,7 +6025,8 @@ export const beaches: Beach[] = [
       "Rønne Strand",
       "Rønne",
       "LYSTSKOVEN",
-      "DKBW344"
+      "DKBW344",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5810,7 +6047,8 @@ export const beaches: Beach[] = [
       "Balka",
       "Arnager",
       "NØRREKÅS",
-      "DKBW1331"
+      "DKBW1331",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5831,7 +6069,8 @@ export const beaches: Beach[] = [
       "Balka",
       "Arnager",
       "ONSBÆK",
-      "DKBW354"
+      "DKBW354",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -5852,7 +6091,8 @@ export const beaches: Beach[] = [
       "Balka",
       "Arnager",
       "RØNNE 500 M SYD",
-      "DKBW352"
+      "DKBW352",
+      "Ronne"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6252,7 +6492,8 @@ export const beaches: Beach[] = [
       "Sejerø Bugt",
       "Klint",
       "ST. HAVELSE STRANDVEJ",
-      "DKBW373"
+      "DKBW373",
+      "Frederikssund"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6305,7 +6546,8 @@ export const beaches: Beach[] = [
       "Skælskør",
       "Korsør",
       "EGERUP STRAND",
-      "DKBW1184"
+      "DKBW1184",
+      "Korsor"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6471,7 +6713,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "FISKETORVET HAVNEBAD",
-      "DKBW1528"
+      "DKBW1528",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6492,7 +6738,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "HALFDANSGADE BADEZONE",
-      "DKBW1629"
+      "DKBW1629",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6514,7 +6764,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Charlottenlund",
       "HAVNEGADE BADEZONE",
-      "DKBW1905"
+      "DKBW1905",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6535,7 +6789,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "HAVNEVIGEN BADEZONE",
-      "DKBW1640"
+      "DKBW1640",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6556,7 +6814,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "ISLANDS BRYGGE HAVNEBAD",
-      "DKBW1525"
+      "DKBW1525",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6577,7 +6839,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "KALVEBOD BØLGE BADEZONE",
-      "DKBW1667"
+      "DKBW1667",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6599,7 +6865,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Charlottenlund",
       "LA BANCHINA BADEZONE",
-      "DKBW1896"
+      "DKBW1896",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6623,7 +6893,11 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "NORDHAVN HAVSVØMMEBANE",
-      "DKBW1953"
+      "DKBW1953",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Not classified",
@@ -6647,7 +6921,11 @@ export const beaches: Beach[] = [
       "Bellevue Klampenborg",
       "Bellevue",
       "SANDKAJ BADEZONE",
-      "DKBW1648"
+      "DKBW1648",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6668,7 +6946,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "SLUSEHOLMEN HAVNEBAD",
-      "DKBW1578"
+      "DKBW1578",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6685,7 +6967,11 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svanemølle",
       "STRANDEN VED VALBYPARKEN",
-      "DKBW1904"
+      "DKBW1904",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6709,7 +6995,11 @@ export const beaches: Beach[] = [
       "Bellevue Klampenborg",
       "Bellevue",
       "STUBKAJ",
-      "DKBW1952"
+      "DKBW1952",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Not classified",
@@ -6733,7 +7023,11 @@ export const beaches: Beach[] = [
       "Amager Strandpark",
       "Amager",
       "SVANEMØLLESTRANDEN",
-      "DKBW1579"
+      "DKBW1579",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6755,7 +7049,11 @@ export const beaches: Beach[] = [
       "Hellerup",
       "Charlottenlund",
       "SØNDRE REFSHALE BADEZONE",
-      "DKBW1656"
+      "DKBW1656",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6776,7 +7074,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "TEGLHOLM BRYGGE BADEZONE",
-      "DKBW1906"
+      "DKBW1906",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6797,7 +7099,11 @@ export const beaches: Beach[] = [
       "Hellerup Strand",
       "Hellerup",
       "VANDTRAPPEN BADEZONE",
-      "DKBW1907"
+      "DKBW1907",
+      "Copenhagen",
+      "København",
+      "Kobenhavn",
+      "Kopenhaga"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6814,7 +7120,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "CHRISTIANSMINDE",
-      "DKBW583"
+      "DKBW583",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6831,7 +7138,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "LEHNSKOV",
-      "DKBW579"
+      "DKBW579",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6848,7 +7156,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "LYSTBÅDEHAVNEN",
-      "DKBW581"
+      "DKBW581",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6865,7 +7174,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "RANTZAUSMINDE",
-      "DKBW1943"
+      "DKBW1943",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Not classified",
@@ -6882,7 +7192,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "SKÅRUPØRE",
-      "DKBW593"
+      "DKBW593",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6899,7 +7210,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "SLOTSHAGEN",
-      "DKBW584"
+      "DKBW584",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6916,7 +7228,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "SMØRMOSEN S",
-      "DKBW589"
+      "DKBW589",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6933,7 +7246,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "TANKEFULD",
-      "DKBW580"
+      "DKBW580",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6950,7 +7264,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "VEMMENÆS S",
-      "DKBW586"
+      "DKBW586",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6967,7 +7282,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "VINDEBYØRE",
-      "DKBW582"
+      "DKBW582",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -6984,7 +7300,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "ÅBYSKOV CAMPING BADEBRO",
-      "DKBW596"
+      "DKBW596",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -7001,7 +7318,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "ØGAVL 50M Ø",
-      "DKBW591"
+      "DKBW591",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -7018,7 +7336,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Svendborgsund",
       "ØREODDEN",
-      "DKBW1568"
+      "DKBW1568",
+      "Svendborg"
     ],
     "country": "Denmark",
     "classification": "Excellent",
@@ -7153,7 +7472,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BOVIKSBADET",
-      "SE0812482000003353"
+      "SE0812482000003353",
+      "Skellefteå",
+      "Skelleftea"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7183,7 +7504,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "DALABADET",
-      "SE0441287000000442"
+      "SE0441287000000442",
+      "Trelleborg"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7362,7 +7684,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "HÄGERNÄSBADET",
-      "SE0110160000001441"
+      "SE0110160000001441",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -7376,7 +7700,9 @@ export const beaches: Beach[] = [
     "name": "Härnön, Smitingens badplats",
     "area": "Coastal bathing site",
     "aliases": [
-      "SE0712280000003742"
+      "SE0712280000003742",
+      "Härnösand",
+      "Harnosand"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7406,7 +7732,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "JOGERSÖ",
-      "SE0220481000001263"
+      "SE0220481000001263",
+      "Nyköping",
+      "Nykoping"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7645,7 +7973,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "STRANDSTUGEVIKEN",
-      "SE0220480000002078"
+      "SE0220480000002078",
+      "Nyköping",
+      "Nykoping"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7660,7 +7990,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "STURKÖ, UTTORP",
-      "SE0411080000000213"
+      "SE0411080000000213",
+      "Karlskrona"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -7705,7 +8036,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "TRANVIKEN ALNÖ",
-      "SE0712281000003474"
+      "SE0712281000003474",
+      "Sundsvall"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -8114,7 +8446,9 @@ export const beaches: Beach[] = [
       "Sickla Strand",
       "Sickla",
       "ERSTAVIKSBADET",
-      "SE0110182000001231"
+      "SE0110182000001231",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -8131,7 +8465,9 @@ export const beaches: Beach[] = [
     "aliases": [
       "Fisksätra",
       "Saltsjöbaden",
-      "SE0110138000002111A"
+      "SE0110138000002111A",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Not classified",
@@ -8281,7 +8617,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Höllviken",
       "SKÅRE SKANSAR",
-      "SE0441287000000439"
+      "SE0441287000000439",
+      "Trelleborg"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -8440,7 +8777,9 @@ export const beaches: Beach[] = [
       "Ekhagen",
       "Norrtull",
       "NÄSAÄNGSBADET",
-      "SE0110160000001442"
+      "SE0110160000001442",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Poor",
@@ -8733,7 +9072,8 @@ export const beaches: Beach[] = [
       "Ribersborg",
       "Västra Hamnen",
       "Västra",
-      "SE0441280000006160"
+      "SE0441280000006160",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Not classified",
@@ -8786,7 +9126,9 @@ export const beaches: Beach[] = [
       "Lomma",
       "Bjärred",
       "HABO LJUNGS CAMPING",
-      "SE0441262000000325"
+      "SE0441262000000325",
+      "Malmö",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -8808,7 +9150,9 @@ export const beaches: Beach[] = [
       "Ribersborg Malmö",
       "Ribersborg",
       "HAMNHUSEN, T-BRYGGAN",
-      "SE0441262000000321"
+      "SE0441262000000321",
+      "Malmö",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -8828,7 +9172,9 @@ export const beaches: Beach[] = [
       "Västra Hamnen",
       "Västra",
       "LOMMA NORRA",
-      "SE0441262000000326"
+      "SE0441262000000326",
+      "Malmö",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -8851,7 +9197,8 @@ export const beaches: Beach[] = [
       "Västra Hamnen",
       "Västra",
       "SIBBARPS KALLBADHUS",
-      "SE0441280000000066"
+      "SE0441280000000066",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -8906,7 +9253,8 @@ export const beaches: Beach[] = [
       "Nynäshamn",
       "Ösmet",
       "HAMNVIKEN",
-      "SE0110192000002132"
+      "SE0110192000002132",
+      "Nynashamn"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -8924,7 +9272,8 @@ export const beaches: Beach[] = [
       "Nynäshamn",
       "Ösmet",
       "NICKSTABADET",
-      "SE0110192000002129"
+      "SE0110192000002129",
+      "Nynashamn"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9018,7 +9367,8 @@ export const beaches: Beach[] = [
       "Klagshamn",
       "Lomma",
       "RIBERSBORG, KALLBADHUSET",
-      "SE0441280000000072"
+      "SE0441280000000072",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9040,7 +9390,8 @@ export const beaches: Beach[] = [
       "Malmö Sundspromenaden",
       "Malmö",
       "Klagshamn",
-      "SE0441280000006161"
+      "SE0441280000006161",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Not classified",
@@ -9059,7 +9410,9 @@ export const beaches: Beach[] = [
       "Fisksätra",
       "Tynningö",
       "SÖDERSVED",
-      "SE0110120000001676"
+      "SE0110120000001676",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9186,7 +9539,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Smygehuk",
       "GISLÖVS STRANDMARK",
-      "SE0441287000000443"
+      "SE0441287000000443",
+      "Trelleborg"
     ],
     "country": "Sweden",
     "classification": "Good",
@@ -9366,7 +9720,9 @@ export const beaches: Beach[] = [
       "Tynningö",
       "Saltsjöbaden",
       "GRISSLINGE HAVSBAD",
-      "SE0110120000001667"
+      "SE0110120000001667",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9384,7 +9740,9 @@ export const beaches: Beach[] = [
       "Vaxholm",
       "Tynningö",
       "ERIKSÖBADET",
-      "SE0110187000001354"
+      "SE0110187000001354",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9402,7 +9760,9 @@ export const beaches: Beach[] = [
       "Vaxholm",
       "Tynningö",
       "TENÖBADET",
-      "SE0110187000001351"
+      "SE0110187000001351",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Sufficient",
@@ -9420,7 +9780,9 @@ export const beaches: Beach[] = [
       "Vaxholm",
       "Tynningö",
       "TRÄLHAVET, BREVIKSBADET",
-      "SE0110117000002090"
+      "SE0110117000002090",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9438,7 +9800,9 @@ export const beaches: Beach[] = [
       "Vaxholm",
       "Tynningö",
       "TRÄLHAVET, ÖSTERSKÄRS HAVSBAD",
-      "SE0110117000002087"
+      "SE0110117000002087",
+      "Stockholm",
+      "Sztokholm"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9476,7 +9840,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Västervik",
       "GRÄNSÖ, BONDBACKEN",
-      "SE0930883000001616"
+      "SE0930883000001616",
+      "Vastervik"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9493,7 +9858,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Västervik",
       "GRÄNSÖ, SANDVIK",
-      "SE0930883000001618"
+      "SE0930883000001618",
+      "Vastervik"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9510,7 +9876,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Västervik",
       "LYSINGSBADET, JUDÖN SANDSTRAND",
-      "SE0930883000001633"
+      "SE0930883000001633",
+      "Vastervik"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9534,7 +9901,8 @@ export const beaches: Beach[] = [
       "Lomma",
       "Klagshamn",
       "SCANIABADPLATSEN",
-      "SE0441280000004366"
+      "SE0441280000004366",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9557,7 +9925,8 @@ export const beaches: Beach[] = [
       "Malmö",
       "Lomma",
       "Klagshamn",
-      "SE0441280000004499"
+      "SE0441280000004499",
+      "Malmo"
     ],
     "country": "Sweden",
     "classification": "Excellent",
@@ -9714,7 +10083,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "MANSIKKANOKKA",
-      "FI152240002"
+      "FI152240002",
+      "Kemi"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9729,7 +10099,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "PITKAT HIEKAT",
-      "FI126917001"
+      "FI126917001",
+      "Hamina",
+      "Fredrikshamn"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -9797,7 +10169,10 @@ export const beaches: Beach[] = [
       "Skogby",
       "Skogby Hangö",
       "CAMPINGEN",
-      "FI118350001"
+      "FI118350001",
+      "Raseborg",
+      "Raasepori",
+      "Ekenas"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9820,7 +10195,10 @@ export const beaches: Beach[] = [
       "Skogby",
       "Skogby Hangö",
       "KNIPAN",
-      "FI118350003"
+      "FI118350003",
+      "Raseborg",
+      "Raasepori",
+      "Ekenas"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -9848,7 +10226,9 @@ export const beaches: Beach[] = [
       "Bengtsår Hanko",
       "Bengtsår",
       "BELLEVUE",
-      "FI110780001"
+      "FI110780001",
+      "Hangö",
+      "Hango"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9876,7 +10256,9 @@ export const beaches: Beach[] = [
       "Bengtsår Hanko",
       "Bengtsår",
       "PLAGEN",
-      "FI110780006"
+      "FI110780006",
+      "Hangö",
+      "Hango"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9904,7 +10286,9 @@ export const beaches: Beach[] = [
       "Santala Hanko",
       "Santala",
       "SLAKTIS",
-      "FI181078009"
+      "FI181078009",
+      "Hangö",
+      "Hango"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9932,7 +10316,9 @@ export const beaches: Beach[] = [
       "Santala Hanko",
       "Santala",
       "TULLINIEMI ETELA",
-      "FI181078012"
+      "FI181078012",
+      "Hangö",
+      "Hango"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -9973,7 +10359,10 @@ export const beaches: Beach[] = [
       "Ruoholahti",
       "HAUKILAHTI",
       "FI110490001",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Espoo",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10014,7 +10403,9 @@ export const beaches: Beach[] = [
       "Jätkäsaari",
       "MATINKYLA",
       "FI110490008",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10054,7 +10445,10 @@ export const beaches: Beach[] = [
       "Eira",
       "WESTEND",
       "FI1B1049017",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Espoo",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10083,7 +10477,10 @@ export const beaches: Beach[] = [
       "Varissuo",
       "Parainen",
       "EKVALLA",
-      "FI121853001"
+      "FI121853001",
+      "Turku",
+      "Åbo",
+      "Abo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10111,7 +10508,10 @@ export const beaches: Beach[] = [
       "Pernö Turku",
       "Pernö",
       "ISPOINEN",
-      "FI121853002"
+      "FI121853002",
+      "Turku",
+      "Åbo",
+      "Abo"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10151,7 +10551,10 @@ export const beaches: Beach[] = [
       "Suomenlinna",
       "LAUTTASAARI",
       "FI110910007",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Espoo",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10199,7 +10602,8 @@ export const beaches: Beach[] = [
       "Paloheinä",
       "AURINKOLAHTI",
       "FI181091023",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10235,7 +10639,8 @@ export const beaches: Beach[] = [
       "Vanhakaupunki",
       "ISO KALLAHTI",
       "FI110910020",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10265,7 +10670,8 @@ export const beaches: Beach[] = [
       "Paloheinä",
       "KALLAHDENNIEMI",
       "FI110910004",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10303,7 +10709,8 @@ export const beaches: Beach[] = [
       "Suomenlinna",
       "PUOTILAN UIMARANTA",
       "FI1B1091025",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Not classified",
@@ -10339,7 +10746,8 @@ export const beaches: Beach[] = [
       "Mustikkamaa",
       "RASTILA",
       "FI110910019",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Sufficient",
@@ -10414,7 +10822,8 @@ export const beaches: Beach[] = [
       "Laajalahti",
       "KLOBBEN",
       "FI110490004",
-      "Helsinki"
+      "Helsinki",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10433,7 +10842,8 @@ export const beaches: Beach[] = [
       "Kokkola Vitsari",
       "Himanka",
       "MERIPUISTON UIMARANTA",
-      "FI1A1272005"
+      "FI1A1272005",
+      "Karleby"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10451,7 +10861,8 @@ export const beaches: Beach[] = [
       "Kokkola Vitsari",
       "Kokkola",
       "POTTI",
-      "FI144272002"
+      "FI144272002",
+      "Karleby"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10468,7 +10879,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "Kokkola",
       "VALKOHIETA",
-      "FI1D5272006"
+      "FI1D5272006",
+      "Karleby"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10615,7 +11027,9 @@ export const beaches: Beach[] = [
       "Bengtsår Hanko",
       "Bengtsår",
       "MARSAN",
-      "FI110780005"
+      "FI110780005",
+      "Hangö",
+      "Hango"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10675,7 +11089,8 @@ export const beaches: Beach[] = [
       "Seurasaari",
       "TUORINNIEMI",
       "FI110910022",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10716,7 +11131,9 @@ export const beaches: Beach[] = [
       "Stora Herrö",
       "HANIKKA",
       "FI110490013",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10756,7 +11173,10 @@ export const beaches: Beach[] = [
       "Pajalahti",
       "MUNKKINIEMI",
       "FI110910008",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Espoo",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -10795,7 +11215,8 @@ export const beaches: Beach[] = [
       "HUMALLAHTI",
       "KIVINOKAN UIMARANTA",
       "FI1B1091024",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Not classified",
@@ -10835,7 +11256,8 @@ export const beaches: Beach[] = [
       "Aurinkolahti",
       "MUSTIKKAMAA",
       "FI110910009",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10861,7 +11283,12 @@ export const beaches: Beach[] = [
       "Pernö Turku",
       "Pernö",
       "NUNNALAHTI",
-      "FI121529003"
+      "FI121529003",
+      "Turku",
+      "Åbo",
+      "Abo",
+      "Nådendal",
+      "Nadendal"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10902,7 +11329,8 @@ export const beaches: Beach[] = [
       "Espoon",
       "KIVENLAHTI",
       "FI110490003",
-      "Helsinki"
+      "Helsinki",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10923,7 +11351,9 @@ export const beaches: Beach[] = [
       "Oulu Tuira",
       "Oulu Hietasaari",
       "NALLIKARI",
-      "FI151564002"
+      "FI151564002",
+      "Uleåborg",
+      "Uleaborg"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -10953,7 +11383,12 @@ export const beaches: Beach[] = [
       "Ispoinen Turku",
       "Ispoinen",
       "SAARONNIEMI",
-      "FI121853003"
+      "FI121853003",
+      "Turku",
+      "Åbo",
+      "Abo",
+      "Nådendal",
+      "Nadendal"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -11047,7 +11482,8 @@ export const beaches: Beach[] = [
       "Pajalahti",
       "LAAJASALO",
       "FI110910013",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -11087,7 +11523,8 @@ export const beaches: Beach[] = [
       "Munkkiniemi",
       "MARJANIEMI",
       "FI110910006",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors"
     ],
     "country": "Finland",
     "classification": "Sufficient",
@@ -11125,7 +11562,8 @@ export const beaches: Beach[] = [
       "Rauma Saarni",
       "Rauma",
       "OTANLAHTI",
-      "FI122684002"
+      "FI122684002",
+      "Raumo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -11143,7 +11581,8 @@ export const beaches: Beach[] = [
       "Rauma Saarni",
       "Rauma",
       "SAHARANTA",
-      "FI122684003"
+      "FI122684003",
+      "Raumo"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -11200,7 +11639,10 @@ export const beaches: Beach[] = [
       "Vanhakaupunki",
       "HIETARANTA",
       "FI110910003",
-      "Helsinki"
+      "Helsinki",
+      "Helsingfors",
+      "Espoo",
+      "Esbo"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -11239,7 +11681,8 @@ export const beaches: Beach[] = [
       "Vaasa Vaskiluoto",
       "Vaasa Sundom",
       "AHVENSAARI",
-      "FI143905001"
+      "FI143905001",
+      "Vasa"
     ],
     "country": "Finland",
     "classification": "Poor",
@@ -11260,7 +11703,8 @@ export const beaches: Beach[] = [
       "Vaasa Santahamina",
       "Vaasa Sundom",
       "HIETASAARI",
-      "FI143905002"
+      "FI143905002",
+      "Vasa"
     ],
     "country": "Finland",
     "classification": "Sufficient",
@@ -11281,7 +11725,8 @@ export const beaches: Beach[] = [
       "Vaasa Vaskiluoto",
       "Vaasa Sundom",
       "KUSTAANLINNA",
-      "FI143905003"
+      "FI143905003",
+      "Vasa"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -11302,7 +11747,8 @@ export const beaches: Beach[] = [
       "Vaasa Söderfjärden",
       "Vaasa Sundom",
       "MANSIKKASAARI",
-      "FI143905004"
+      "FI143905004",
+      "Vasa"
     ],
     "country": "Finland",
     "classification": "Good",
@@ -11322,7 +11768,8 @@ export const beaches: Beach[] = [
       "Vaasa Santahamina",
       "Vaasa Söderfjärden",
       "STROMSO",
-      "FI143905006"
+      "FI143905006",
+      "Vasa"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -11344,7 +11791,10 @@ export const beaches: Beach[] = [
       "Ispoinen Turku",
       "Ispoinen",
       "HOVIRINTA",
-      "FI121202001"
+      "FI121202001",
+      "Turku",
+      "Åbo",
+      "Abo"
     ],
     "country": "Finland",
     "classification": "Excellent",
@@ -11547,7 +11997,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KÄRDLA",
-      "EE00401005KARDLA"
+      "EE00401005KARDLA",
+      "Kardla"
     ],
     "country": "Estonia",
     "classification": "Excellent",
@@ -11592,7 +12043,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "NARVA-JÕESUU RAND",
-      "EE00301021NJOES"
+      "EE00301021NJOES",
+      "Narva-Jõesuu",
+      "Narva-Joesuu"
     ],
     "country": "Estonia",
     "classification": "Good",
@@ -11622,7 +12075,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "TÕRVANINA",
-      "EE00401004TORVANINA"
+      "EE00401004TORVANINA",
+      "Kärdla",
+      "Kardla"
     ],
     "country": "Estonia",
     "classification": "Excellent",
@@ -12222,7 +12677,8 @@ export const beaches: Beach[] = [
       "Käsmu",
       "Käsmu Lääne-Viru",
       "VÕSU RAND",
-      "EE00202011VOSUR"
+      "EE00202011VOSUR",
+      "Vosu"
     ],
     "country": "Estonia",
     "classification": "Excellent",
@@ -12267,7 +12723,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "BALTIJAS JŪRA, SALACGRĪVA",
-      "LV00766160001"
+      "LV00766160001",
+      "Salacgrīva",
+      "Salacgriva"
     ],
     "country": "Latvia",
     "classification": "Excellent",
@@ -12725,7 +13183,8 @@ export const beaches: Beach[] = [
       "Pāvilosta",
       "Pāvilosta Pludmale",
       "PĀVILOSTA",
-      "LV00364141301"
+      "LV00364141301",
+      "Pavilosta"
     ],
     "country": "Latvia",
     "classification": "Excellent",
@@ -12750,7 +13209,9 @@ export const beaches: Beach[] = [
       "LV00601000010",
       "Rīga",
       "Riga",
-      "Daugavgrīva"
+      "Daugavgrīva",
+      "Jūrmala",
+      "Jurmala"
     ],
     "municipality": "Rīga"
   },
@@ -12770,7 +13231,9 @@ export const beaches: Beach[] = [
       "LV00601000009",
       "Rīga",
       "Riga",
-      "Vakarbuļļi"
+      "Vakarbuļļi",
+      "Jūrmala",
+      "Jurmala"
     ],
     "municipality": "Rīga"
   },
@@ -12877,7 +13340,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "SVENTOSIOS MOTERU PAPLUDIMIO",
-      "LT0032500101015"
+      "LT0032500101015",
+      "Šventoji",
+      "Sventoji"
     ],
     "country": "Lithuania",
     "classification": "Excellent",
@@ -12994,7 +13459,8 @@ export const beaches: Beach[] = [
       "JUODKRANTES PAPLUDIMIO",
       "LT0032300101010",
       "Klaipėda",
-      "Klaipeda"
+      "Klaipeda",
+      "Juodkrante"
     ],
     "country": "Lithuania",
     "classification": "Excellent",
@@ -13136,7 +13602,9 @@ export const beaches: Beach[] = [
       "Nemirseta",
       "Būtingė",
       "SVENTOSIOS PAPLUDIMIO",
-      "LT0032500101013"
+      "LT0032500101013",
+      "Šventoji",
+      "Sventoji"
     ],
     "country": "Lithuania",
     "classification": "Excellent",
@@ -13291,7 +13759,8 @@ export const beaches: Beach[] = [
       "Pervalka",
       "Neringa Pervalka",
       "PREILOS PAPLUDIMIO",
-      "LT0032300101008"
+      "LT0032300101008",
+      "Nida"
     ],
     "country": "Lithuania",
     "classification": "Excellent",
@@ -13320,7 +13789,9 @@ export const beaches: Beach[] = [
     "name": "Jarosławiec Dubaj I",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221305232000202"
+      "PL4221305232000202",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Sufficient",
@@ -13334,7 +13805,9 @@ export const beaches: Beach[] = [
     "name": "Jarosławiec Dubaj II",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221305232000203"
+      "PL4221305232000203",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Sufficient",
@@ -13349,7 +13822,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "JAROSŁAWIEC WSCHÓD PLAŻA CENTRALNA",
-      "PL4221305232000124"
+      "PL4221305232000124",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Good",
@@ -13363,7 +13838,9 @@ export const beaches: Beach[] = [
     "name": "Jarosławiec Zachód Pas startowy",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221305232000215"
+      "PL4221305232000215",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Good",
@@ -13378,7 +13855,9 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "JAROSŁAWIEC ZACHÓD PLAŻA RUSINOWO",
-      "PL4221305232000126"
+      "PL4221305232000126",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Good",
@@ -13392,7 +13871,9 @@ export const beaches: Beach[] = [
     "name": "Jarosławiec Zachód Rusinowo II",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221305232000216"
+      "PL4221305232000216",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Good",
@@ -13407,7 +13888,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KRYNICA MORSKA - BULWAR SŁONECZNY 1",
-      "PL6321001122000147"
+      "PL6321001122000147",
+      "Krynica Morska"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -13422,7 +13904,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KRYNICA MORSKA - BULWAR SŁONECZNY 2",
-      "PL6321001122000146"
+      "PL6321001122000146",
+      "Krynica Morska"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -13437,7 +13920,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KĄPIELISKO MORSKIE KRYNICA MORSKA - KORCZAKA",
-      "PL6321001122000023"
+      "PL6321001122000023",
+      "Krynica Morska"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -13452,7 +13936,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KĄPIELISKO MORSKIE KRYNICA MORSKA - PORT",
-      "PL6321001122000096"
+      "PL6321001122000096",
+      "Krynica Morska"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -13467,7 +13952,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "KĄPIELISKO MORSKIE KRYNICA MORSKA - PORT 2",
-      "PL6321001122000100A"
+      "PL6321001122000100A",
+      "Krynica Morska"
     ],
     "country": "Poland",
     "classification": "Not classified",
@@ -13539,7 +14025,9 @@ export const beaches: Beach[] = [
     "name": "Wicie wejście Wicie 3W",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221303232000206"
+      "PL4221303232000206",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -13553,7 +14041,9 @@ export const beaches: Beach[] = [
     "name": "Wicie wejście Wicie 3Z",
     "area": "Coastal bathing site",
     "aliases": [
-      "PL4221301132000199"
+      "PL4221301132000199",
+      "Jarosławiec",
+      "Jaroslawiec"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -14635,7 +15125,8 @@ export const beaches: Beach[] = [
       "Chłapowo",
       "Chlapowo",
       "OSTROWO WEJŚCIE NR 35",
-      "PL6321104122000057"
+      "PL6321104122000057",
+      "Wladyslawowo"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -14663,7 +15154,8 @@ export const beaches: Beach[] = [
       "Władysławowo Chłapowo",
       "Chłapowo",
       "Chlapowo",
-      "PL6321104122000081"
+      "PL6321104122000081",
+      "Wladyslawowo"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -14833,7 +15325,9 @@ export const beaches: Beach[] = [
       "Jastrzębia Góra",
       "Jastrzebia Gora",
       "KĄPIELISKO MORSKIE W KARWIEŃSKICH BŁOTACH DRUGICH",
-      "PL6321106222000053"
+      "PL6321106222000053",
+      "Dębki",
+      "Debki"
     ],
     "country": "Poland",
     "classification": "Excellent",
@@ -15380,7 +15874,8 @@ export const beaches: Beach[] = [
       "KĄPIELISKO NR 1 - DUŻA PLAŻA",
       "PL6321101122000042",
       "Gdańsk",
-      "Gdansk"
+      "Gdansk",
+      "Hel"
     ]
   },
   {
@@ -15398,7 +15893,8 @@ export const beaches: Beach[] = [
       "KĄPIELISKO NR 2 - NA CYPLU",
       "PL6321101122000044",
       "Gdańsk",
-      "Gdansk"
+      "Gdansk",
+      "Hel"
     ]
   },
   {
@@ -15414,7 +15910,8 @@ export const beaches: Beach[] = [
     "sourceUrl": "https://sdi.eea.europa.eu/catalogue/srv/api/records/070d9baa-448d-4168-8514-7dadb3ad876d?language=all",
     "aliases": [
       "KĄPIELISKO NR 3 - MAŁA PLAŻA",
-      "PL6321101122000043"
+      "PL6321101122000043",
+      "Hel"
     ]
   },
   {
@@ -15810,7 +16307,9 @@ export const beaches: Beach[] = [
     "aliases": [
       "Kąpielisko Puck",
       "PL6321107222000055",
-      "Puck"
+      "Puck",
+      "Władysławowo",
+      "Wladyslawowo"
     ]
   },
   {
@@ -16739,7 +17238,8 @@ export const beaches: Beach[] = [
     "aliases": [
       "KĄPIELISKO W STEPNICY NAD ZALEWEM SZCZECIŃSKIM",
       "PL4210407232000009",
-      "Stepnica"
+      "Stepnica",
+      "Szczecin"
     ]
   },
   {
@@ -16774,7 +17274,8 @@ export const beaches: Beach[] = [
       "KĄPIELISKO W TRZEBIEŻY",
       "PL4211104532000086",
       "Trzebież",
-      "Trzebiez"
+      "Trzebiez",
+      "Szczecin"
     ]
   },
   {
@@ -17860,7 +18361,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OSTS GROSSENBRODE KURZENTRUM",
-      "DESH_PR_0095"
+      "DESH_PR_0095",
+      "Heiligenhafen"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -17980,7 +18482,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OSTS OSTERMADE",
-      "DESH_PR_0094"
+      "DESH_PR_0094",
+      "Heiligenhafen"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -18025,7 +18528,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OSTS STEINWARDER",
-      "DESH_PR_0098"
+      "DESH_PR_0098",
+      "Heiligenhafen"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -18190,7 +18694,8 @@ export const beaches: Beach[] = [
     "area": "Coastal bathing site",
     "aliases": [
       "OSTSEE STRELASUND TREMT",
-      "DEMV_PR_1_0221"
+      "DEMV_PR_1_0221",
+      "Greifswald"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -18937,7 +19442,9 @@ export const beaches: Beach[] = [
       "Warnemünde",
       "Warnemünde Strand",
       "OSTSEE NIENHAGEN STRANDTREPPE",
-      "DEMV_PR_1_0239"
+      "DEMV_PR_1_0239",
+      "Rostock",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -18961,7 +19468,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE WARNEMUENDER WESTSTRAND",
-      "DEMV_PR_1_0237"
+      "DEMV_PR_1_0237",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -18985,7 +19493,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE WILHELMSHOEHE WARNEMUENDE",
-      "DEMV_PR_1_0238"
+      "DEMV_PR_1_0238",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19004,7 +19513,8 @@ export const beaches: Beach[] = [
       "Eckernförde Strand",
       "Eckernförde Borby",
       "OSTS ECKERNFOERDE AM DANG",
-      "DESH_PR_0199"
+      "DESH_PR_0199",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19023,7 +19533,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS ECKERNFOERDE BORBY",
-      "DESH_PR_0198"
+      "DESH_PR_0198",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19042,7 +19553,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Borby",
       "OSTS ECKERNFOERDE HAUPTSTRAND",
-      "DESH_PR_0200"
+      "DESH_PR_0200",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19061,7 +19573,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Borby",
       "OSTS ECKERNFOERDE SUEDSTRAND",
-      "DESH_PR_0244"
+      "DESH_PR_0244",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19080,7 +19593,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS HEMMELMARK AM CAMPINGPLATZ",
-      "DESH_PR_0197"
+      "DESH_PR_0197",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19099,7 +19613,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS HOHENSTEIN AM CAMPINGPLATZ",
-      "DESH_PR_0196"
+      "DESH_PR_0196",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19118,7 +19633,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS KARLSMINDE AM CAMPINGPLATZ",
-      "DESH_PR_0195"
+      "DESH_PR_0195",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19174,7 +19690,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS LEHMBERG AM CAMPINGPLATZ",
-      "DESH_PR_0193"
+      "DESH_PR_0193",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19193,7 +19710,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Borby",
       "OSTS LINDHOEFT AM CAMPINGPLATZ",
-      "DESH_PR_0204"
+      "DESH_PR_0204",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19212,7 +19730,8 @@ export const beaches: Beach[] = [
       "Eckernförde",
       "Eckernförde Strand",
       "OSTS LUDWIGSBURG CP CARL",
-      "DESH_PR_0194"
+      "DESH_PR_0194",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19231,7 +19750,8 @@ export const beaches: Beach[] = [
       "Eckernförde Borby",
       "Eckernförde Strand",
       "SCHLEI GOETHEBY",
-      "DESH_PR_0178"
+      "DESH_PR_0178",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Good",
@@ -19249,7 +19769,8 @@ export const beaches: Beach[] = [
       "Eckernförde Borby",
       "Eckernförde",
       "SCHLEI HELLOER",
-      "DESH_PR_0263"
+      "DESH_PR_0263",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Good",
@@ -19267,7 +19788,8 @@ export const beaches: Beach[] = [
       "Eckernförde Borby",
       "Eckernförde",
       "SCHLEI KOSEL CP MISSUNDE",
-      "DESH_PR_0180"
+      "DESH_PR_0180",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Sufficient",
@@ -19304,7 +19826,8 @@ export const beaches: Beach[] = [
       "Eckernförde Borby",
       "Eckernförde Strand",
       "SCHLEI WESEBY",
-      "DESH_PR_0179"
+      "DESH_PR_0179",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19323,7 +19846,8 @@ export const beaches: Beach[] = [
       "Eckernförde Borby",
       "Eckernförde Strand",
       "SCHLEI WESEBY ZELTLAGER",
-      "DESH_PR_0248"
+      "DESH_PR_0248",
+      "Eckernforde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19488,7 +20012,8 @@ export const beaches: Beach[] = [
       "Fehmarn Wulfener Hals",
       "Fehmarn Wulfener",
       "OSTS GROSSENBRODE UNTERHALB BALTIC",
-      "DESH_PR_0097"
+      "DESH_PR_0097",
+      "Heiligenhafen"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19799,7 +20324,8 @@ export const beaches: Beach[] = [
       "Kühlungsborn Strand",
       "Kühlungsborn",
       "OSTSEE HEILIGENDAMM AM HEILIGEN DAMM",
-      "DEMV_PR_1_0241"
+      "DEMV_PR_1_0241",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19819,7 +20345,8 @@ export const beaches: Beach[] = [
       "Kühlungsborn Strand",
       "Kühlungsborn",
       "OSTSEE HEILIGENDAMM AM KINDERSTRAND",
-      "DEMV_PR_1_0253"
+      "DEMV_PR_1_0253",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -19991,7 +20518,8 @@ export const beaches: Beach[] = [
       "Wismar Insel",
       "Insel Poel Schwarzenbusch",
       "OSTSEE BECKERWITZ CAMPINGPLATZ",
-      "DEMV_PR_1_0276"
+      "DEMV_PR_1_0276",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -20011,7 +20539,8 @@ export const beaches: Beach[] = [
       "Wismar Insel Poel",
       "Wismar Insel",
       "OSTSEE INSEL POEL SCHWARZER BUSCH",
-      "DEMV_PR_1_0263"
+      "DEMV_PR_1_0263",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -20032,7 +20561,8 @@ export const beaches: Beach[] = [
       "Wismar Insel",
       "Insel Poel Schwarzenbusch",
       "OSTSEE INSEL POEL TIMMENDORF",
-      "DEMV_PR_1_0264"
+      "DEMV_PR_1_0264",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -20079,7 +20609,8 @@ export const beaches: Beach[] = [
       "Boltenhagen Strand",
       "Boltenhagen",
       "OSTSEE WOHLENBERGER WIEK AN DER MOEWE",
-      "DEMV_PR_1_0279"
+      "DEMV_PR_1_0279",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -20100,7 +20631,8 @@ export const beaches: Beach[] = [
       "Wismar Insel",
       "Insel Poel Schwarzenbusch",
       "OSTSEE WOHLENBERGER WIEK CAMPINGPLATZ",
-      "DEMV_PR_1_0277"
+      "DEMV_PR_1_0277",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -20121,7 +20653,8 @@ export const beaches: Beach[] = [
       "Wismar Insel",
       "Insel Poel Schwarzenbusch",
       "OSTSEE WOHLENBERGER WIEK NIENDORF",
-      "DEMV_PR_1_0278"
+      "DEMV_PR_1_0278",
+      "Wismar"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21129,7 +21662,8 @@ export const beaches: Beach[] = [
       "Heiligendamm",
       "Heiligendamm Strand",
       "OSTSEE KUEHLUNGSBORN CAMPINGPARK OSTSEEKLINIK",
-      "DEMV_PR_1_0246"
+      "DEMV_PR_1_0246",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21151,7 +21685,8 @@ export const beaches: Beach[] = [
       "Rerik Strand",
       "Rerik",
       "OSTSEE KUEHLUNGSBORN HAUPTSTRAND OST",
-      "DEMV_PR_1_0244"
+      "DEMV_PR_1_0244",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21173,7 +21708,8 @@ export const beaches: Beach[] = [
       "Rerik Strand",
       "Rerik",
       "OSTSEE KUEHLUNGSBORN HAUPTSTRAND WEST",
-      "DEMV_PR_1_0254"
+      "DEMV_PR_1_0254",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21195,7 +21731,8 @@ export const beaches: Beach[] = [
       "Heiligendamm",
       "Heiligendamm Strand",
       "OSTSEE KUEHLUNGSBORN HOTEL SCHLOSS AM MEER",
-      "DEMV_PR_1_0245"
+      "DEMV_PR_1_0245",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21217,7 +21754,8 @@ export const beaches: Beach[] = [
       "Rerik Strand",
       "Rerik",
       "OSTSEE KUEHLUNGSBORN OESTLICH BOOTSHAFEN",
-      "DEMV_PR_1_0243"
+      "DEMV_PR_1_0243",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21239,7 +21777,8 @@ export const beaches: Beach[] = [
       "Rerik Strand",
       "Rerik",
       "OSTSEE WITTENBECK STRANDABGANG",
-      "DEMV_PR_1_0242"
+      "DEMV_PR_1_0242",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21297,7 +21836,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE MARKGRAFENHEIDE STRAND",
-      "DEMV_PR_1_0232"
+      "DEMV_PR_1_0232",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21321,7 +21861,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE PARKPLATZ SONNENSTRAND MARKGRAFENHEIDE",
-      "DEMV_PR_1_0234"
+      "DEMV_PR_1_0234",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21347,7 +21888,8 @@ export const beaches: Beach[] = [
       "Rostock",
       "Graal-Müritz Strand",
       "OSTSEE PARKPLATZ STUBBENWIESE MARKGRAFENHEIDE",
-      "DEMV_PR_1_0233"
+      "DEMV_PR_1_0233",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21371,7 +21913,9 @@ export const beaches: Beach[] = [
       "Rostock Lütten Klein",
       "Rostock Lütten",
       "OSTSEE PRAHMGRABEN MARKGRAFENHEIDE",
-      "DEMV_PR_1_0231"
+      "DEMV_PR_1_0231",
+      "Rostock",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21678,7 +22222,8 @@ export const beaches: Beach[] = [
       "Kühlungsborn",
       "Kühlungsborn Strand",
       "OSTSEE KAEGSDORF PARKPLATZ",
-      "DEMV_PR_1_0247"
+      "DEMV_PR_1_0247",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21698,7 +22243,8 @@ export const beaches: Beach[] = [
       "Kühlungsborn",
       "Kühlungsborn Strand",
       "OSTSEE MESCHENDORF CAMPINGPLATZ",
-      "DEMV_PR_1_0255"
+      "DEMV_PR_1_0255",
+      "Kuhlungsborn"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21781,7 +22327,8 @@ export const beaches: Beach[] = [
       "Lübeck Travemünde",
       "Lübeck",
       "OSTS SCHARBEUTZ",
-      "DESH_PR_0082"
+      "DESH_PR_0082",
+      "Lubeck"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -21811,7 +22358,9 @@ export const beaches: Beach[] = [
       "Niendorf",
       "Niendorf Hafen",
       "OSTS TIMMENDORFER STRAND",
-      "DESH_PR_0081"
+      "DESH_PR_0081",
+      "Lubeck",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22272,7 +22821,10 @@ export const beaches: Beach[] = [
       "Lübeck Travemünde",
       "Lübeck",
       "OSTS BADESTRAND PRIWALL",
-      "DESH_PR_0007"
+      "DESH_PR_0007",
+      "Lubeck",
+      "Travemunde",
+      "Timmendorfer Strand"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22302,7 +22854,9 @@ export const beaches: Beach[] = [
       "Niendorf Hafen",
       "Sierksdorf",
       "OSTS NIENDORF",
-      "DESH_PR_0080"
+      "DESH_PR_0080",
+      "Lubeck",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22324,7 +22878,9 @@ export const beaches: Beach[] = [
       "Timmendorfer Strand Strand",
       "Timmendorfer Strand",
       "OSTS TRAVEMUENDE KURSTRAND",
-      "DESH_PR_0006"
+      "DESH_PR_0006",
+      "Lubeck",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22346,7 +22902,8 @@ export const beaches: Beach[] = [
       "Klützer Winkel",
       "Klützer",
       "OSTSEE BARENDORF",
-      "DEMV_PR_1_0291"
+      "DEMV_PR_1_0291",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22368,7 +22925,8 @@ export const beaches: Beach[] = [
       "Klützer Winkel",
       "Klützer",
       "OSTSEE HOF BARENDORF",
-      "DEMV_PR_1_0292"
+      "DEMV_PR_1_0292",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22390,7 +22948,8 @@ export const beaches: Beach[] = [
       "Klützer Winkel",
       "Klützer",
       "OSTSEE ROSENHAGEN",
-      "DEMV_PR_1_0293"
+      "DEMV_PR_1_0293",
+      "Travemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22414,7 +22973,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE AM LEUCHTTURM WARNEMUENDE",
-      "DEMV_PR_1_0235"
+      "DEMV_PR_1_0235",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
@@ -22438,7 +22998,8 @@ export const beaches: Beach[] = [
       "Rostock Gehlsdorf",
       "Rostock",
       "OSTSEE WARNEMUENDER STRAND",
-      "DEMV_PR_1_0236"
+      "DEMV_PR_1_0236",
+      "Warnemunde"
     ],
     "country": "Germany",
     "classification": "Excellent",
