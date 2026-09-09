@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans text-navy-900 antialiased;
+    background-color: #f7fafc;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .animate-delay-100 { animation-delay: 100ms; animation-fill-mode: both; }
+  .animate-delay-200 { animation-delay: 200ms; animation-fill-mode: both; }
+  .animate-delay-300 { animation-delay: 300ms; animation-fill-mode: both; }
+}
+
+/* Custom scrollbar for the dropdown */
+.baltic-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.baltic-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(15, 140, 158, 0.25);
+  border-radius: 9999px;
+}
+.baltic-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
